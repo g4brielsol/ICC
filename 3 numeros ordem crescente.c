@@ -3,41 +3,52 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
     int a, b, c, primeiro, segundo, terceiro;
     scanf("%d %d %d", &a, &b, &c);
     
-    if (a <= b) {
-        if (a <= c) {
+    if (a <= b) 
+    {
+        if (a <= c)
+         {
             primeiro = a;
-            if (b <= c){
-            terceiro = c;
-            segundo = b;
+            if (b <= c)
+            {
+                terceiro = c;
+                segundo = b;
             }
-            else{
-            terceiro = b;
-            segundo = c;
+            else
+            {
+                terceiro = b;
+                segundo = c;
             }
         }
-        else{
+        else
+        {
             primeiro = c;
             segundo = a;
             terceiro = b;
         }
     }
-    else {
-        if (b <= c) {
+    else
+    {
+        if (b <= c)
+        {
             primeiro = b;
-            if (c <= a){
+            if (c <= a)
+            {
                 segundo = c;
                 terceiro = a;
             }
-            else{
+            else
+            {
                 segundo = a;
                 terceiro = c;
             }
         }
-        else{
+        else
+        {
             terceiro = a;
             segundo = b;
             primeiro = c;
@@ -49,5 +60,5 @@ int main() {
     
     
     
-return 0;
+    return 0;
 }
