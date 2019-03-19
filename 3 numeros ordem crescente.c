@@ -28,7 +28,6 @@ int main() {
     else {
         if (b <= c) {
             primeiro = b;
-            }
             if (c <= a){
                 segundo = c;
                 terceiro = a;
@@ -37,6 +36,7 @@ int main() {
                 segundo = a;
                 terceiro = c;
             }
+        }
         else{
             terceiro = a;
             segundo = b;
