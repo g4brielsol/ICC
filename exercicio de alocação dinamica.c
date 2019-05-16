@@ -13,7 +13,7 @@ void main()
     
 }
 
-resolução do monitor
+//resolução do monitor
 
 int main()
 {
@@ -28,7 +28,7 @@ int main()
         M[i] = (int*)malloc(m*sizeof(int));
         for(int j=0; j< m; j++)
         {
-            M[i][j] = rand(%20); // numero de 0 a 19
+            M[i][j] = rand()%20; // numero de 0 a 19
             printf("%d ", M[i][j]);
         }
         printf("\n");
